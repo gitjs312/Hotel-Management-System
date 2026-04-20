@@ -1,19 +1,43 @@
 *{
-    padding:0;
-    margin:0;
+   
     font-family: arial;
+    
 }
 html, body{
     display:grid;
     height:100%;
     place-items:center;
     background-color:  azure;
+    
+    
 }
 .container{
     width:400px;
     padding:40px;
     background-color: wheat;
+    height: 300px;
     
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-form h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 30px;
+    color: blue;
+   
+    
+    
+}
+form{
+    color:blue;
+    height: 30px;
+    margin:10px;
+    
+
+}
+form.field{
+    height: 20px;
+    margin:20px;
 }
