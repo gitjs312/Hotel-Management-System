@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin login using PHP</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <div class="container">
+        <div class="login-form">
+             <h1>Admin Login</h1>
+        </div>
+       
+        <form action="/process.php" method="post">
+            <div class="field">
+                <input type="email" name="email" title="Email" id="email"required>
+                <label for>Email</label>
+            </div>
+            <div class="field">
+                <input type="password" name="password" id="password" title="password" required>
+                <label for>password</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="remember-me" title="remember-me">
+                <label for>remember me</label>
+            </div>
+            <div class="pass-link">
+                <a href="#">forget password</a>
+            </div>
+            <div class="field">
+                <input type="submit" value="login" name="login">
+            </div>
+           
+        </form>
     
 </body>
 </html>
